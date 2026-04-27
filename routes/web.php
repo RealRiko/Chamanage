@@ -85,8 +85,8 @@ Route::middleware('auth')->group(function () {
     Route::resource('products', ProductController::class)->except(['show']);
 
     // Inventory / Storage Management
-    Route::get('/storage', [InventoryController::class, 'index'])->name('inventory.index');
-    Route::put('/storage', [InventoryController::class, 'bulkUpdateQuantities'])->name('inventory.bulkUpdate');
+    Route::get('/inventory', [InventoryController::class, 'index'])->name('inventory.index');
+    Route::put('/inventory', [InventoryController::class, 'bulkUpdateQuantities'])->name('inventory.bulkUpdate');
 
     // Clients
     Route::resource('clients', ClientController::class);
