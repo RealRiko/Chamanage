@@ -1,0 +1,2 @@
+<link rel="icon" href="<?php echo e(asset('favicon.svg')); ?>" type="image/svg+xml" sizes="any">
+<?php /**PATH /home5/deveralv/chamanage.lat/CRM-main/resources/views/partials/favicon.blade.php ENDPATH**/ ?>

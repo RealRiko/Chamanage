@@ -1,0 +1,1 @@
+    <?php /**PATH /home5/deveralv/chamanage.lat/CRM-main/resources/views/components/application-logo.blade.php ENDPATH**/ ?>
